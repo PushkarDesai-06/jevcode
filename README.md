@@ -9,7 +9,7 @@ jev ▸ → haiku · small edit · Saver
 ## See your number first
 
 ```sh
-npx jevcode audit            # replays your last 30 days of Claude Code sessions
+npx @pushkardesai/jevcode audit            # replays your last 30 days of Claude Code sessions
 ```
 
 ```
@@ -42,8 +42,8 @@ Routing quality on the labeled set (`evals/labeled.jsonl`, Jev):
 ```sh
 codex plugin marketplace add PushkarDesai-06/jevcode
 codex plugin add jev@jevcode          # then approve the hook with /hooks
-npx jevcode setup key <OPENROUTER_API_KEY>
-npx jevcode setup codex               # installs jev-quick / jev-worker / jev-deep agent roles
+npx @pushkardesai/jevcode setup key <OPENROUTER_API_KEY>
+npx @pushkardesai/jevcode setup codex               # installs jev-quick / jev-worker / jev-deep agent roles
 ```
 
 ## The three stages

@@ -1,5 +1,5 @@
 {
-  "name": "jevcode",
+  "name": "@pushkardesai/jevcode",
   "version": "0.1.0",
   "description": "Jev-powered model routing for Claude Code and Codex: send each prompt to the cheapest model that can handle it.",
   "type": "module",

@@ -7,7 +7,7 @@ description: Manage jev model routing — show or change the optimization stage,
 
 jev classifies each prompt with Jev (via OpenRouter) and routes it to the cheapest capable model tier (Luna → Sol → Astra). When a prompt carries a `<jev-route action="delegate_down" agent="jev-quick">` (or `jev-worker` / `jev-deep`) block, spawn a sub-agent with that `agent_type` and a self-contained brief, as the block says. The user enabled this delegation by installing jev.
 
-Run the CLI with `jev <command>` if it's on PATH, otherwise `npx -y jevcode <command>`:
+Run the CLI with `jev <command>` if it's on PATH, otherwise `npx -y @pushkardesai/jevcode <command>`:
 
 | User wants | Command |
 |---|---|
