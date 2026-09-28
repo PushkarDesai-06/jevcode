@@ -1,0 +1,31 @@
+{
+  "name": "jev",
+  "version": "0.1.0",
+  "description": "Jev-powered model routing: each prompt goes to the cheapest model that can handle it. Three stages from Balanced to Max Saver, with automatic escalation when a cheap route falls short.",
+  "author": {
+    "name": "jevcode"
+  },
+  "license": "MIT",
+  "keywords": [
+    "routing",
+    "cost",
+    "tokens",
+    "models",
+    "haiku",
+    "sonnet",
+    "opus",
+    "jev",
+    "typesafe"
+  ],
+  "userConfig": {
+    "openrouter_api_key": {
+      "type": "string",
+      "title": "OpenRouter API key",
+      "description": "OpenRouter key used to call Jev (typesafe/jev-1.13). Leave empty to use the offline heuristic classifier.",
+      "sensitive": true,
+      "required": false
+    }
+  },
+  "homepage": "https://github.com/PushkarDesai-06/jevcode",
+  "repository": "https://github.com/PushkarDesai-06/jevcode"
+}

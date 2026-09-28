@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jevcode",
+  "description": "Jev-powered model routing for Claude Code",
+  "owner": { "name": "jevcode" },
+  "plugins": [
+    {
+      "name": "jev",
+      "description": "Route each prompt to the cheapest model that can handle it, using Jev. Three stages from Balanced to Max Saver.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "source": "./plugins/claude-code"
+    }
+  ]
+}

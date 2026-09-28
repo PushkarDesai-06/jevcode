@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${PLUGIN_ROOT}/dist/hook.mjs\" route --host codex",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

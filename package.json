@@ -1,0 +1,50 @@
+{
+  "name": "jevcode",
+  "version": "0.1.0",
+  "description": "Jev-powered model routing for Claude Code and Codex: send each prompt to the cheapest model that can handle it.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "jev": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "plugins",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test && npm run build",
+    "prepublishOnly": "npm run check"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "plugin",
+    "model-routing",
+    "llm",
+    "cost",
+    "tokens",
+    "jev",
+    "openrouter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PushkarDesai-06/jevcode.git"
+  },
+  "homepage": "https://github.com/PushkarDesai-06/jevcode#readme",
+  "bugs": {
+    "url": "https://github.com/PushkarDesai-06/jevcode/issues"
+  }
+}

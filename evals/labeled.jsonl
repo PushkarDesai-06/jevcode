@@ -1,0 +1,37 @@
+// {"prompt", "tier"}: tier = cheapest model tier a careful engineer would trust (0 Haiku/Luna, 1 Sonnet/Sol, 2 Opus/Astra)
+{"prompt": "run the tests", "tier": 0}
+{"prompt": "commit these changes with a sensible message", "tier": 0}
+{"prompt": "where is the retry logic for the http client?", "tier": 0}
+{"prompt": "rename getUserData to fetchUserProfile everywhere in src/api/users.ts", "tier": 0}
+{"prompt": "fix the typo in the README heading", "tier": 0}
+{"prompt": "install zod and add it to package.json", "tier": 0}
+{"prompt": "list all the files that import the logger", "tier": 0}
+{"prompt": "what does the --dry-run flag do in scripts/deploy.sh?", "tier": 0}
+{"prompt": "add a console.log of the request body in the login handler", "tier": 0}
+{"prompt": "format the codebase with prettier", "tier": 0}
+{"prompt": "bump the version to 1.4.2 and update the changelog", "tier": 0}
+{"prompt": "show me git log for the last 5 commits", "tier": 0}
+{"prompt": "change the default timeout from 30s to 60s in config.ts", "tier": 0}
+{"prompt": "remove the unused imports in components/Header.tsx", "tier": 0}
+{"prompt": "add a --verbose flag to the CLI that enables debug logging", "tier": 1}
+{"prompt": "the date picker shows the wrong month when the user's timezone is behind UTC, fix it", "tier": 1}
+{"prompt": "write unit tests for the parseDuration function covering edge cases", "tier": 1}
+{"prompt": "add pagination to the /api/orders endpoint using cursor-based pagination", "tier": 1}
+{"prompt": "review my diff for bugs before I push", "tier": 1}
+{"prompt": "convert this class component to a function component with hooks", "tier": 1}
+{"prompt": "add a dark mode toggle to the settings page and persist the choice", "tier": 1}
+{"prompt": "the CI build fails with 'Cannot find module ./generated/types' — figure out why and fix it", "tier": 1}
+{"prompt": "implement a debounce hook and use it in the search box", "tier": 1}
+{"prompt": "add input validation with zod to the signup form handler", "tier": 1}
+{"prompt": "explain how the event loop handles our async job queue and why jobs sometimes run twice", "tier": 1}
+{"prompt": "write a migration script that backfills the new created_by column", "tier": 2}
+{"prompt": "we have a race condition in the order processing worker where two workers claim the same job intermittently; find and fix it", "tier": 2}
+{"prompt": "design the architecture for multi-tenant isolation in our Postgres schema and plan the migration from the single-tenant model", "tier": 2}
+{"prompt": "our p99 latency doubled after the last release, profile and find the regression", "tier": 2}
+{"prompt": "refactor the payment module to support multiple providers behind a common interface without breaking existing Stripe flows", "tier": 2}
+{"prompt": "audit the auth middleware for security vulnerabilities, especially token validation and session fixation", "tier": 2}
+{"prompt": "there's a memory leak in the websocket server under load; track it down", "tier": 2}
+{"prompt": "plan how we should split this monolith into services and what the trade-offs are", "tier": 2}
+{"prompt": "implement optimistic concurrency control across the inventory service and the cart service", "tier": 2}
+{"prompt": "the flaky integration test fails 1 in 20 runs on CI only; figure out the root cause", "tier": 2}
+{"prompt": "rotate the production database credentials and update the deploy config", "tier": 2}

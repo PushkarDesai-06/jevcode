@@ -1,0 +1,4 @@
+#!/bin/sh
+# jev CLI, on PATH inside Claude Code sessions via the plugin's bin/ directory.
+dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec node "$dir/../dist/cli.mjs" "$@"

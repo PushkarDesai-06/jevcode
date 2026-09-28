@@ -1,0 +1,39 @@
+{
+  "name": "jev",
+  "version": "0.1.0",
+  "description": "Jev-powered model routing for Codex: classify each prompt and hand simple work to cheaper models (Luna/Sol), escalating hard work to Astra.",
+  "author": {
+    "name": "jevcode"
+  },
+  "license": "MIT",
+  "keywords": [
+    "routing",
+    "cost",
+    "tokens",
+    "models",
+    "luna",
+    "sol",
+    "astra",
+    "jev",
+    "typesafe"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "jev",
+    "shortDescription": "Route each prompt to the cheapest capable model",
+    "longDescription": "jev classifies every prompt with TypeSafe's Jev (~130 ms) and routes it: simple work goes to cheaper models, hard work escalates, and pushback automatically moves the task back up. Three stages trade savings against caution.",
+    "developerName": "jevcode",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Show my jev savings",
+      "Switch jev to Max Saver",
+      "Why did jev route my last prompt that way?"
+    ]
+  },
+  "homepage": "https://github.com/PushkarDesai-06/jevcode",
+  "repository": "https://github.com/PushkarDesai-06/jevcode"
+}
